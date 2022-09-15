@@ -1,1 +1,12 @@
-let find pallindrome
+//let find pallindrome
+
+var naam="nayan"
+let bori="";
+for(let i=0; i<naam.length; i++){
+ bori=naam[i]+bori;}
+if(bori==naam){
+  console.log("Pallindrome");
+}
+else{
+  console.log("Not Pallindrome");
+}
